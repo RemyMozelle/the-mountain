@@ -1,0 +1,410 @@
+/*******************************************
+header : "HOME" | logo | BG | bouttons
+********************************************/
+
+header {
+    background: url(../images/bg_header.jpg) no-repeat;
+    background-size: cover;
+    height: 1036px;
+}
+
+header h1,
+p {
+    color: white;
+}
+
+header h1 {
+    margin-bottom: 50px;
+}
+
+strong {
+    font-size: 2em;
+}
+
+.navbar-default {
+    background: none;
+    border: none;
+    margin-bottom: 120px;
+}
+
+.navbar-header .navbar-brand {
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-header .navbar-brand img {
+    height: 50px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 34px;
+    height: 6px;
+    border-radius: 1px;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.logo-top {
+    font-size: 1.6em;
+    color: black;
+    position: relative;
+    top: 3px;
+}
+
+.bouton-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.bouton-top .btn {
+    width: 140px;
+    height: 55px;
+    border-radius: 0px;
+}
+
+.bouton-top .bouton1 .btn {
+    background-color: #36c4c5;
+    margin-right: 2.5px;
+}
+
+.bouton-top .bouton2 .btn {
+    background-color: #f52257;
+    margin-left: 2.5px;
+}
+
+
+/*******************************************
+header : "FEATURES" | logo | BG | bouttons
+********************************************/
+
+
+/*RESPONSIVE HEADER*/
+
+@media (max-width: 415px) {
+    strong {
+        font-size: 1.4em;
+    }
+    .bouton-top {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .bouton-top .bouton1 .btn {
+        background-color: #36c4c5;
+        width: 145px;
+    }
+    .bouton-top .bouton2 .btn {
+        background-color: #f52257;
+        width: 135px;
+    }
+}
+
+@media (max-width: 340px) {
+    .logo-top {
+        display: none;
+    }
+}
+
+
+/*******************************************
+SECTION : "FEATURES" | BG | FONTS
+********************************************/
+
+.fa-x4 {
+    font-size: 4em !important;
+}
+
+#features {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+
+#features h1 {
+    font-size: 1.4em;
+    color: #525a5d;
+}
+
+#features p {
+    color: #5c5753;
+}
+
+
+/*******************************************
+SECTION : "ABOUT" | BG
+********************************************/
+
+#about {
+    background: url(../images/bg_nuage.jpg) no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+#about h1 {
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+#about h2 {
+    margin-bottom: 35px;
+}
+
+.bg-blue {
+    background-color: rgba(145, 207, 232, 0.4);
+    height: 600px;
+}
+
+.ultri-ferme {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.ultri-ferme h3 {
+    margin-bottom: 60px;
+}
+
+.ultricies {
+    border: 1px solid white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.fermentum {
+    border: 1px solid white;
+    padding-left: 30px;
+    padding-right: 35px;
+    padding-bottom: 50px;
+}
+
+
+/*******************************************
+SECTION : "BLOG" | BG | IMAGE
+********************************************/
+
+#blog {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+#blog p {
+    color: black;
+    font-size: 1.2em;
+}
+
+#blog h1 {
+    margin-bottom: 60px;
+}
+
+#blog .velo {
+    background: url(../images/1200.jpeg) no-repeat;
+    background-size: cover;
+    height: 455px;
+    width: 100%;
+}
+
+#blog .btn {
+    background-color: #f52257;
+    border-radius: 0;
+    width: 165px;
+}
+
+.content-blog {
+    display: flex;
+}
+
+
+/*******************************************
+SECTION : "HISTORY" | BG | IMAGE
+********************************************/
+
+#history {
+    background: url(../images/bg_appareil_photo.jpg) no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+#history h2 {
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+
+/*******************************************
+SECTION : "PHOTOS" | BG | IMAGE
+********************************************/
+
+#photos {
+    padding: 75px;
+    margin-bottom: 50px;
+    background-color: #dddddd;
+}
+
+#photos .container {
+    padding: 0px;
+}
+
+#photos .ph-1 {
+    background: url(../images/300.jpeg) no-repeat;
+    background-size: cover;
+    height: 385px;
+}
+
+#photos .ph-2 {
+    background: url(../images/776.jpeg) no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+
+#photos .ph-3 {
+    background: url(../images/800.jpeg) no-repeat;
+    background-size: cover;
+    height: 605px;
+    margin-top: 20px;
+    width: 375px;
+    margin-right: 20px;
+}
+
+#photos .ph-4 {
+    background: url(../images/400.jpeg) no-repeat;
+    background-size: cover;
+    height: 375px;
+    width: 375px;
+    margin-top: 20px;
+}
+
+#photos .ph-5 {
+    background: url(../images/2476.jpeg) no-repeat;
+    background-size: cover;
+    height: 215px;
+    width: 375px;
+    margin-top: 20px;
+}
+
+#photos .ph-6 {
+    background: url(../images/140.jpeg) no-repeat;
+    background-size: cover;
+    height: 180px;
+    margin-top: 20px;
+}
+
+#photos .ph-7 {
+    background: url(../images/439.jpeg) no-repeat;
+    background-size: cover;
+    height: 280px;
+    margin-top: 25px;
+}
+
+
+/*******************************************
+SECTION : "PARTENAIRES" | LOGO | IMAGE
+********************************************/
+
+#partenaires {
+    margin-bottom: 50px;
+}
+
+#partenaires .container {
+    padding: 0px;
+}
+
+#partenaires .flex-partenaires {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/*RESPONSIVE SECTION : "PARTENAIRES"*/
+
+@media(max-width:760px) {
+    #partenaires .flex-partenaires {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/*******************************************
+SECTION : "CONTACT" | FORMULAIRE | BG | BOUTON
+********************************************/
+
+#contact {
+    background: url(../images/bg_newsletter-ombre.jpg) no-repeat;
+    background-size: cover;
+    height: 475px;
+}
+
+#contact h1 {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 1.7em;
+    color: white;
+    color:
+}
+
+#contact input {
+    width: 360px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#contact p {
+    font-size: 1.2em;
+}
+
+#contact .btn {
+    background-color: #f52257;
+    margin-left: 2.5px;
+    border-radius: 0px;
+}
+
+#contact .container {
+    padding: 0px;
+}
+
+
+/*******************************************
+FOOTER RS
+********************************************/
+
+footer {
+    background-color: #24323b;
+    height: 220px;
+    color: white;
+}
+
+footer .footer-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-all .footer-rs figure a:hover{
+    background-color: #2aacba;
+    border-radius: 50%;
+}
+
+footer h1 {
+    margin-top: 0px;
+    padding-top: 60px;
+    margin-bottom: 50px;
+}
+.bleu-jetdail {
+    color: #2aacba;
+}
